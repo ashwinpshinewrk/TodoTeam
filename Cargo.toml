@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-iced = "0.12.1"
+iced = { version= "0.12.1", features= ["advanced"]}
 savefile = "0.17.4"
 savefile-derive = "0.17.4"
